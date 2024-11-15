@@ -82,7 +82,7 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src="https://via.placeholder.com/logo.png"
+          src="https://s3-inventorymanagement.s3.ap-south-1.amazonaws.com/logo.png"
           alt="edstock-logo"
           width={27}
           height={27}
