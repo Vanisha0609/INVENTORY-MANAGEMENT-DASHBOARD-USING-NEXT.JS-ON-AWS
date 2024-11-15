@@ -1,8 +1,13 @@
-import type { NextConfig } from "next";
-
 const nextConfig = {
   images: {
-    domains: ['via.placeholder.com'],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "s3-inventorymanagement.s3.ap-south-1.amazonaws.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
 };
 
